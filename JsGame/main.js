@@ -82,6 +82,7 @@ function isCollision(firstElement, secondElement){
 function gameIsOver(){
     scene.isActiveGame = false;
     gameOver.classList.remove('hide');
+    
 }
 
 function addFireBall(){
